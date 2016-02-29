@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-export function formDate(date) {
+export function formatDate(date) {
   return moment(date[0]).format('YYYY-MM-DD');
 }
 
