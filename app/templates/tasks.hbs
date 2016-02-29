@@ -3,7 +3,7 @@
 {{#each task in model}}
   <div class="well">
     <h4>{{task.title}}</h4>
-    <small>Due: {{forma-date task.date}}</small>
+    <small>Due: {{format-date task.date}}</small>
     <p>{{task.description}}</p>
   </div>
 {{/each}}
